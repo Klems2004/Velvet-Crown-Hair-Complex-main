@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shop hair | Velvet Crown Hair Complex</title>
+<meta name="description" content="Browse wigs, bundles, lace closures, braids and hair care. Add what you like to your basket and send it on WhatsApp." />
+<meta name="theme-color" content="#35102F" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23F0C56A'/%3E%3Cpath d='M8 29h24l2-15-8 6-6-10-6 10-8-6z' fill='%2335102F'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<script>
+setTimeout(function () {
+  if (document.documentElement.hasAttribute("data-ready")) return;
+  var warning = document.getElementById("script-warning");
+  if (warning) warning.hidden = false;
+  console.error("script.js did not load. Check that the file is named exactly script.js and sits in the same folder as the pages.");
+}, 2500);
+</script>
+<script src="script.js" defer></script>
+</head>
+<body>
+<div class="script-warning" id="script-warning" role="alert" hidden>The shop, basket and menu are switched off because <strong>script.js</strong> did not load. Check that the file is named exactly <strong>script.js</strong> and is in the same folder as the pages.</div>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="topbar"><div class="container topbar-inner"><p data-open-status>Opening hours</p><p data-bind="topbarNote">Pickup and delivery available</p></div></div>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Home">
+      <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 19h18l1.5-12-5.5 4.2L12 3 7 11.200 1.500 7z" fill="currentColor"/></svg></span>
+      <span class="logo-name" data-bind="name">Velvet Crown Hair Complex</span>
+    </a>
+    <nav class="nav" id="primary-nav" aria-label="Main">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="shop.html" aria-current="page">Shop</a></li>
+        <li><a class="nav-link" href="visit.html">Visit us</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <a class="btn btn-outline header-wa" data-href="whatsapp" href="visit.html#contact" target="_blank" rel="noopener noreferrer">WhatsApp<span class="sr-only"> (opens in a new tab)</span></a>
+      <button class="basket-btn" type="button" data-open-basket aria-label="Open basket">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.200 12H6.200zM9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="basket-count" data-basket-count>0</span>
+      </button>
+      <button class="menu-toggle" type="button" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="menu-lines" aria-hidden="true"></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <h1>Shop hair</h1>
+      <p>Add what you like to your basket. When you are ready, send it on WhatsApp and we will confirm stock, price and delivery.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight" aria-label="Products">
+    <div class="container">
+      <div class="toolbar">
+        <div class="search">
+          <label for="search" class="sr-only">Search hair</label>
+          <input id="search" type="search" placeholder="Search, for example bob or closure" autocomplete="off" />
+        </div>
+        <div class="sort">
+          <label for="sort">Sort by</label>
+          <select id="sort">
+            <option value="featured">Featured</option>
+            <option value="low">Price, low to high</option>
+            <option value="high">Price, high to low</option>
+          </select>
+        </div>
+      </div>
+      <div class="chips-row" id="category-chips" role="group" aria-label="Filter by type"></div>
+      <p class="result-count" id="result-count" role="status" aria-live="polite"></p>
+      <div class="grid" id="product-grid"></div>
+      <div class="empty" id="empty" hidden>
+        <h2>No hair matches that</h2>
+        <p>Try another word or choose a different type.</p>
+        <button class="btn btn-primary" type="button" id="clear-filters">Show all hair</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-name" data-bind="name">Velvet Crown Hair Complex</p>
+      <p data-bind="address">Plot 12, Sample Road, Lagos</p>
+      <p><a data-href="tel" href="visit.html#contact" data-bind="phone">+234 800 000 0000</a></p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="visit.html#directory">Shop directory</a></li>
+      <li><a href="visit.html#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="container footer-base">
+    <p>&copy; <span data-year>2026</span> <span data-bind="name">Velvet Crown Hair Complex</span>.</p>
+    <p class="sample-note" data-sample-notice>Demo website. The shops, products, prices and contact details are sample content.</p>
+  </div>
+</footer>
+
+</body>
+</html>
